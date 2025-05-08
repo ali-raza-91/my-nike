@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Hero />
+      {/* <Hero /> */}
       <Card />
       <div className="w-full flex flex-col justify-center items-center mt-14 gap-y-3">
         <h1 className="text-4xl font-extrabold text-center">
@@ -51,7 +51,7 @@ function App() {
 
       <ServicesList/>
       <Footer/>
-      <Lastfooter/>
+      {/* <Lastfooter/> */}
     </>
   );
 }
